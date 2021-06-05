@@ -36,6 +36,7 @@ public class DataTypes{
   System.out.println("Tampan : " + tampan);
 
   JOptionPane.showMessageDialog(null,"Hai, " + namaDepan + namaBelakang);
+  namaBelakang = JOptionPane.showInputDialog("Nama Belakang : ");
 
   }
 }
